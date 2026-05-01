@@ -1,17 +1,41 @@
 {
-  "name": "void.desktop-css",
-  "version": "1.0.0",
+  "name": "@n123999/void-theme",
+  "version": "0.1.0",
   "description": "Desktop CSS extension: absolute black, restrained grays, and surgical white accents.",
-  "author": "n123999",
+  "author": {
+    "name": "n123999"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N123999/spirit-agent-extension-void-theme.git"
+  },
+  "homepage": "https://github.com/N123999/spirit-agent-extension-void-theme#readme",
+  "keywords": [
+    "spirit-agent",
+    "spirit-agent-extension",
+    "desktop",
+    "desktop-ui",
+    "theme",
+    "css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "spiritExtension": {
     "schemaVersion": 1,
     "displayName": "Void Desktop CSS",
-    "supportedHosts": ["desktop"],
-    "requestedCapabilities": ["desktop-ui"],
+    "supportedHosts": [
+      "desktop"
+    ],
+    "requestedCapabilities": [
+      "desktop-ui"
+    ],
     "contributes": {
       "desktop": {
         "css": [
-          { "path": "theme.css" }
+          {
+            "path": "theme.css"
+          }
         ]
       }
     }
