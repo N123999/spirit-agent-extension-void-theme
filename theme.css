@@ -1,0 +1,115 @@
+.dark,
+[data-spirit-theme="dark"] {
+  --background: #000000;
+  --foreground: #ffffff;
+
+  --card: #09090b;
+  --card-foreground: #d4d4d8;
+
+  --popover: #09090b;
+  --popover-foreground: #d4d4d8;
+
+  --primary: #ffffff;
+  --primary-foreground: #000000;
+
+  --secondary: #18181b;
+  --secondary-foreground: #d4d4d8;
+
+  --muted: #18181b;
+  --muted-foreground: #a1a1aa;
+
+  --accent: #18181b;
+  --accent-foreground: #d4d4d8;
+
+  --destructive: #b91c1c;
+
+  --border: #27272a;
+  --input: #27272a;
+  --ring: #3f3f46;
+
+  --chart-1: #e4e4e7;
+  --chart-2: #a1a1aa;
+  --chart-3: #71717a;
+  --chart-4: #52525b;
+  --chart-5: #3f3f46;
+
+  --radius: 0.5rem;
+
+  --sidebar: #000000;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ffffff;
+  --sidebar-primary-foreground: #000000;
+  --sidebar-accent: #18181b;
+  --sidebar-accent-foreground: #d4d4d8;
+  --sidebar-border: #27272a;
+  --sidebar-ring: #3f3f46;
+  --sidebar-list-foreground: #71717a;
+  --sidebar-faint-foreground: #52525b;
+}
+
+[data-spirit-theme="dark"][data-spirit-surface="app-shell"],
+[data-spirit-theme="dark"][data-spirit-surface="conversation-shell"],
+[data-spirit-theme="dark"][data-spirit-surface="conversation-stage"],
+[data-spirit-theme="dark"][data-spirit-surface="conversation-scroll"],
+[data-spirit-theme="dark"][data-spirit-surface="settings-shell"],
+[data-spirit-theme="dark"][data-spirit-surface="marketplace-layout"],
+[data-spirit-theme="dark"][data-spirit-surface="marketplace-shell"],
+[data-spirit-theme="dark"][data-spirit-surface="workspace-dock"] {
+  background: #000000;
+}
+
+[data-spirit-theme="dark"][data-spirit-surface="session-sidebar"] {
+  background: #000000;
+  border-color: #27272a;
+}
+
+[data-spirit-theme="dark"][data-spirit-mica="true"][data-spirit-surface="app-shell"] {
+  background: transparent;
+}
+
+[data-spirit-theme="dark"][data-spirit-mica="true"] [data-spirit-surface="session-sidebar"],
+[data-spirit-theme="dark"][data-spirit-mica="true"] [data-spirit-surface="conversation-shell"],
+[data-spirit-theme="dark"][data-spirit-mica="true"] [data-spirit-surface="conversation-stage"],
+[data-spirit-theme="dark"][data-spirit-mica="true"] [data-spirit-surface="conversation-scroll"],
+[data-spirit-theme="dark"][data-spirit-mica="true"] [data-spirit-surface="settings-shell"],
+[data-spirit-theme="dark"][data-spirit-mica="true"] [data-spirit-surface="marketplace-layout"],
+[data-spirit-theme="dark"][data-spirit-mica="true"] [data-spirit-surface="marketplace-shell"],
+[data-spirit-theme="dark"][data-spirit-mica="true"] [data-spirit-surface="workspace-dock"] {
+  background: transparent;
+}
+
+[data-spirit-theme="dark"] [data-spirit-surface="message-row"][data-spirit-message-role="assistant"] [data-spirit-surface="message-bubble"] {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+[data-spirit-theme="dark"] [data-spirit-surface="message-row"][data-spirit-message-role="assistant"] pre[data-spirit-surface="message-bubble"] {
+  background: #09090b;
+  border: 1px solid #27272a;
+  box-shadow: none;
+  border-radius: 0.5rem;
+}
+
+[data-spirit-theme="dark"] [data-spirit-surface="message-row"][data-spirit-message-role="user"] pre[data-spirit-surface="message-bubble"] {
+  background: #09090b;
+  border: 1px solid #27272a;
+  box-shadow: none;
+  border-radius: 0.5rem;
+}
+
+[data-spirit-theme="dark"][data-spirit-surface="composer-surface"] {
+  background: #09090b;
+  border-color: #27272a;
+  box-shadow: none;
+  border-radius: 0.5rem;
+}
+
+[data-spirit-theme="dark"][data-spirit-surface="composer-dock"] {
+  background: linear-gradient(to bottom, transparent, #000000 40%);
+}
+
+[data-spirit-theme="dark"] [data-spirit-surface="conversation-empty"] p {
+  letter-spacing: 0.02em;
+}

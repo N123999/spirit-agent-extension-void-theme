@@ -1,0 +1,19 @@
+{
+  "name": "void.desktop-css",
+  "version": "1.0.0",
+  "description": "Desktop CSS extension: absolute black, restrained grays, and surgical white accents.",
+  "author": "n123999",
+  "spiritExtension": {
+    "schemaVersion": 1,
+    "displayName": "Void Desktop CSS",
+    "supportedHosts": ["desktop"],
+    "requestedCapabilities": ["desktop-ui"],
+    "contributes": {
+      "desktop": {
+        "css": [
+          { "path": "theme.css" }
+        ]
+      }
+    }
+  }
+}
